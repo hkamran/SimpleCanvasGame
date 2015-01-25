@@ -12,7 +12,7 @@ Use the up arrow to move up, and down arrow to move down.
 
 # Requirements
 
-HTML5 Compatible browser
+HTML5 Compatible browser (Preferably Chrome)
 
 # How to run
 
