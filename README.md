@@ -4,7 +4,11 @@ Weekend Coding Session #3 - HTML5/Javascript Canvas Game.
 
 # About
 
-A simple canvas game where the player avoids the boundaries.
+A simple canvas game where the player avoids the boundaries. 
+
+# Controls
+
+Use the up arrow to move up, and down arrow to move down.
 
 # Requirements
 

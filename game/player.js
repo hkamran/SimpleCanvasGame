@@ -16,9 +16,10 @@ var Player = function(context, canvas, xpos, ypos) {
         Given a keyboard event, move the player to the appropriate position.
     **/
     this.controls = function(e) {
-        if (e.keyCode === 37) { // left
+    console.log(e);
+        if (e.keyCode === 38) { // up
             this._ypos = this._ypos - this.moveSpeed;
-        } else if (e.keyCode === 39) { // right
+        } else if (e.keyCode === 40) { // down
             this._ypos = this._ypos + this.moveSpeed;
         }
     };
