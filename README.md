@@ -16,4 +16,4 @@ git clone repo, and open index.html
 
 Demo: 
 
-
+http://104.236.89.192/SimpleCanvasGame/
