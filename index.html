@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <title>Avoid the Lines</title>
+    </head>
+    <body>
+        <canvas id="canvas" width="500" height="500" style="border: 2px solid #000000; position: absolute; margin: auto; top: 0; right: 0; bottom: 0; left: 0;"></canvas> 
+        <script src="game/components/point.js"></script>
+        <script src="game/components/line.js"></script>
+        <script src="game/components/boundary.js"></script>
+        
+        <script src="game/map/level.js"></script>
+        <script src="game/player.js"></script>
+        <script src="game/game.js"></script>
+        <script>
+            var canvas = document.getElementById('canvas');
+            var context = canvas.getContext('2d');
+            
+            canvas.tabIndex = 1;
+
+            var game = new Game(context, canvas);
+            game.setup();
+            setInterval(
+                function(){
+                    game.draw();
+                    game.tick();
+                }
+            , 1);
+        </script>
+    </body>
+</html>
